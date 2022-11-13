@@ -3,9 +3,11 @@
 
 <head>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/socials.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic SC">
     <link rel="stylesheet" href="./css/form.css">
+    <script src="https://kit.fontawesome.com/aaf38ab5f4.js" crossorigin="anonymous"></script>
     <title>Northern Shore Media</title>
 </head>
 
@@ -20,29 +22,45 @@
             <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
     </div>
-    <h1>Contact</h1>  
+    <h1 style="text-align: center;">Contact</h1>  
     
     <div class="container">
         <form action="action_page.php">
       
             <label for="fname"><b>First Name</b></label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
         
             <label for="lname"><b>Last Name</b></label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
         
+            <label for="cname"><b>Company Name</b></label>
+            <input type="text" id="cname" name="companyname" placeholder="Your company name...">
+
             <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
+            <input type="text" id="email" name="email" placeholder="example@company.com" required>
+
+            <label for="phone"><b>Phone Number</b></label>
+            <input type="text" id="phone" name="phone" placeholder="123-123-1234">
         
             <label for="subject"><b>Subject</b></label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
         
             <input type="submit" value="Submit">
-      
         </form>
       </div>
+      <div class="socials">
+        <a class="btn" href="#">
+            <i class="fa-brands fa-facebook fa-2xl"></i>
+        </a>
+        <a class="btn" href="#">
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/anndion3852/">
+            <i class="fa-brands fa-linkedin fa-2xl"></i>
+        </a>
+    </div>
 </body>
 <footer>
-
+    
 </footer>
 </html>

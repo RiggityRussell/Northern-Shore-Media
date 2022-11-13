@@ -2,6 +2,7 @@
 @media only screen and (max-width: 600px) {
     body{
         background-color: black;
+
     }
 }
 
@@ -10,6 +11,7 @@
     body{
         background-color: rgb(180, 18, 18);
     }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
