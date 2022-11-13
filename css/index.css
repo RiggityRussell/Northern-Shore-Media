@@ -1,5 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
   body{
     background-image: url(../media/images/LakeMIShore1.jpeg);
     background-repeat:no-repeat;
@@ -14,10 +15,12 @@
 h1{
   font-size:1em;
 }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
   body{
     background-image: url(../media/images/LakeMIShore1.jpeg);
     background-repeat:no-repeat;
@@ -31,6 +34,7 @@ h1{
   h1{
     font-size: larger;
   }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
