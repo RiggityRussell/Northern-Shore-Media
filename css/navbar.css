@@ -36,4 +36,5 @@ ul {
 
   .navbar{
     padding-bottom: 20px;
+    display:flex;
   }
