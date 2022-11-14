@@ -3,8 +3,8 @@
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 5px; 
-    border: 1px solid darkcyan; /* dark cyan border */
-    border-radius: 4px; /* Rounded borders */
+    border: 1px solid black; /* dark cyan border */
+    border-radius: 10px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 2px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
@@ -13,7 +13,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: black;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -30,7 +30,32 @@ input[type=text], select, textarea {
   .container {
     width: 45%;
     border-radius: 5px;
-    background-color: rgb(61, 151, 151);
+    background-color: rgb(66, 185, 159);
     padding: 10px;
     margin-left: 10px;
+  }
+
+ /* Header/logo Title */
+.header {
+  background-color: rgb(5, 48, 85);
+  opacity: .8;
+  font-family: "Amatic SC", sans-serif;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    background: aliceblue;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    padding-bottom: 5px;
+    opacity: .9;
+  }
+  .btn{
+    color: black;
   }
