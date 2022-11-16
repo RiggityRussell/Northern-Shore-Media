@@ -1,24 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.blue{
-  background-color: rgb(4, 53, 95);
-opacity: .8;
-font-family: "Amatic SC", sans-serif;
-padding: 60px;
-text-align: center;
-color: white;
-border-radius: 10px;
-}
-main{
-  padding-bottom: 50px;
-  overflow: auto;
-}
 
-html{
-  scroll-behavior: smooth;
-  height: 100%;
-}
 /* Style the body */
 body {
   font-family: Arial;
@@ -30,6 +13,7 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+
 }
 p{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -41,34 +25,42 @@ p{
   text-align: center;
   border-radius: 10px;
 }
-.choose{
-  background-color: aliceblue;
-  opacity: .80;
-  border-radius: 10px;
-  width: 150px;
+/* Header/logo Title */
+.header {
+background-color: rgb(27, 86, 138);
+opacity: .8;
+font-family: "Amatic SC", sans-serif;
+padding: 60px;
+text-align: center;
+color: white;
+min-width: 100vh;
 }
 /* Column container */
 .row {  
   display: flex;
   flex-wrap: wrap;
+  float: left;
 }
-
+.Ann{
+  border-radius:50%;
+}
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
   flex: 30%;
   padding: 20px;
+  float: left;
 }
 
 /* Main column */
 .main {
   flex: 70%;
-  padding: 20px;
-  margin-top: 10px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
- /* Footer */
- .footer {
+/* Footer */
+.footer {
   text-align: center;
   background: aliceblue;
   position: fixed;
@@ -93,7 +85,7 @@ p{
 }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-  .row{   
+  .row, .navbar {   
     flex-direction: column;
    
   }

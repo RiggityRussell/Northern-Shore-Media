@@ -1,17 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  .blue{
-    background-color: rgb(4, 53, 95);
-  opacity: .8;
-  font-family: "Amatic SC", sans-serif;
-  padding: 60px;
-  text-align: center;
-  color: white;
-  border-radius: 10px;
-  
 
-  }
   /* Style the body */
   body {
     font-family: Arial;
@@ -35,30 +25,36 @@
     text-align: center;
     border-radius: 10px;
   }
-  .choose{
-    background-color: aliceblue;
-    opacity: .80;
-    border-radius: 10px;
-    width: 150px;
-  }
+/* Header/logo Title */
+.header {
+  background-color: rgb(27, 86, 138);
+  opacity: .8;
+  font-family: "Amatic SC", sans-serif;
+  padding: 60px;
+  text-align: center;
+  color: white;
+  min-width: 100vh;
+}
   /* Column container */
   .row {  
     display: flex;
     flex-wrap: wrap;
+    float: left;
   }
-  
+ 
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
     flex: 30%;
     padding: 20px;
+    float: left;
   }
   
   /* Main column */
   .main {
     flex: 70%;
-    padding: 20px;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
   
   /* Footer */
