@@ -2,15 +2,22 @@
   box-sizing: border-box;
 }
 .blue{
-  background-color: rgb(5, 48, 85);
+  background-color: rgb(4, 53, 95);
 opacity: .8;
 font-family: "Amatic SC", sans-serif;
 padding: 60px;
 text-align: center;
 color: white;
 border-radius: 10px;
+}
+main{
+  padding-bottom: 50px;
+  overflow: auto;
+}
 
-
+html{
+  scroll-behavior: smooth;
+  height: 100%;
 }
 /* Style the body */
 body {
@@ -23,7 +30,6 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-
 }
 p{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -61,8 +67,8 @@ p{
   margin-top: 10px;
 }
 
-/* Footer */
-.footer {
+ /* Footer */
+ .footer {
   text-align: center;
   background: aliceblue;
   position: fixed;
@@ -87,7 +93,7 @@ p{
 }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-  .row, .navbar {   
+  .row{   
     flex-direction: column;
    
   }
