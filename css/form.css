@@ -23,28 +23,46 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, make it blue */
   input[type=submit]:hover {
-    background-color: rgb(57, 57, 216);
+    background-color: rgb(27, 86, 138);
   }
   
   /* Add a background color and some padding around the form */
   .container {
     width: 45%;
     border-radius: 5px;
-    background-color: rgb(66, 185, 159);
+    background-color: rgba(201, 163, 67, 0.767);
+    opacity: .95;
     padding: 10px;
     margin-left: 10px;
   }
 
- /* Header/logo Title */
+/* Header/logo Title */
 .header {
-  background-color: rgb(5, 48, 85);
+  background-color: rgb(27, 86, 138);
   opacity: .8;
   font-family: "Amatic SC", sans-serif;
   padding: 60px;
   text-align: center;
   color: white;
+  min-width: 100vh;
+  margin-bottom: 20px;
 }
-
+body {
+  clear: both;
+   background-image: url(../media/images/LakeMIShore1.jpeg);
+   background-repeat:no-repeat;
+    height: 100%; 
+   background-size:cover;
+   background-position:center;
+   font-family: Arial;
+   min-height: 100vh; 
+   display: flex;
+   flex-direction: column;
+  
+ }
+.label{
+  text-shadow: 1px 1px aliceblue;
+}
   /* Footer */
   .footer {
     text-align: center;
