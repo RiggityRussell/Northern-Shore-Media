@@ -1,4 +1,56 @@
-ul {
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index:1;
+}
+
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-right: 1px solid #bbb;
+}
+
+
+.navbar a:hover {
+  background-color: #111;
+  color: white;
+}
+
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+body{
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+
+
+/* ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -37,4 +89,17 @@ ul {
   .navbar{
     padding-bottom: 20px;
     display:flex;
+    z-index:1;
+    position:relative
   }
+
+
+@media screen and (max-width: 700px) {
+  .navbar{
+    padding-bottom: 20px;
+    display:block;
+    z-index:1;
+    position:relative;
+    flex-direction: column;
+  }
+} */
