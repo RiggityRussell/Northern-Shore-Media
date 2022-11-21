@@ -35,11 +35,10 @@ body{
   margin: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .navbar a {
     float: none;
     display: block;
     text-align: left;
-  }
-
+  } 
 }
