@@ -47,13 +47,26 @@ input[type=text], select, textarea {
   min-width: 100vh;
   margin-bottom: 20px;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url(../media/images/LakeMIShore1.jpeg);
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body {
   clear: both;
-   background-image: url(../media/images/LakeMIShore1.jpeg);
-   background-repeat:no-repeat;
+  
     height: 100%; 
-   background-size:cover;
-   background-position:center;
+  
    font-family: Arial;
    min-height: 100vh; 
    display: flex;

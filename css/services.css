@@ -2,14 +2,26 @@
     box-sizing: border-box;
   }
 
+  .parallax {
+    /* The image used */
+    background-image: url(../media/images/LakeMIShore1.jpeg);
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   /* Style the body */
   body {
     font-family: Arial;
-    background-image: url(../media/images/LakeMIShore1.jpeg);
-    background-repeat:no-repeat;
+  
     height: 100%;
-    background-size:cover;
-    background-position:center;
+   
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -57,17 +69,17 @@
     margin-bottom: 100px;
   }
   
-  /* Footer */
-  .footer {
-    text-align: center;
-    background: aliceblue;
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    bottom: 0;
-    padding-bottom: 5px;
-    opacity: .9;
-  }
+/* Footer */
+.footer {
+  text-align: center;
+  background: aliceblue;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  padding-bottom: 5px;
+  opacity: .9;
+}
   .btn{
     color: black;
   }
