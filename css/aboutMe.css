@@ -1,15 +1,8 @@
-* {
-  box-sizing: border-box;
-}
 
 /* Style the body */
 body {
   font-family: Arial;
-  background-image: url(../media/images/LakeMIShore1.jpeg);
-  background-repeat:no-repeat;
   height: 100%;
-  background-size:cover;
-  background-position:center;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -33,7 +26,7 @@ font-family: "Amatic SC", sans-serif;
 padding: 60px;
 text-align: center;
 color: white;
-min-width: 100vh;
+
 }
 /* Column container */
 .row {  
@@ -41,13 +34,14 @@ min-width: 100vh;
   flex-wrap: wrap;
   float: left;
 }
-.Ann{
-  border-radius:50%;
+/* picture */
+.generic{
+  border-radius:5%;
 }
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
+  flex: 20%;
   padding: 20px;
   float: left;
 }
@@ -57,6 +51,7 @@ min-width: 100vh;
   flex: 70%;
   margin-top: 50px;
   margin-bottom: 100px;
+  float: left;
 }
 
 /* Footer */
@@ -73,27 +68,22 @@ min-width: 100vh;
 .btn{
   color: black;
 }
-.Ann{
-  border-radius:50%;
-}
-.banner{
-  opacity: .9;
-  border-radius: 10px;
-  padding: 5px;
-  margin-top: 6px;
 
-}
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row, .navbar {   
     flex-direction: column;
    
   }
-  .banner{
-      height: 200px;
-      opacity: .9;
-      border-radius: 10px;
-      padding: 5px;
+/* Header/logo Title */
+.header {
+  background-color: rgb(27, 86, 138);
+  opacity: .8;
+  font-family: "Amatic SC", sans-serif;
+  padding: 60px;
+  text-align: center;
+  color: white;
+  max-width: 700px;
+  }
 
-    }
 }

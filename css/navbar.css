@@ -1,3 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+.parallax {
+  /* The image used */
+  background-image: url(../media/images/LakeMIShore1.jpeg);
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .navbar {
   list-style-type: none;
   margin: 0px;
@@ -35,11 +51,10 @@ body{
   margin: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .navbar a {
     float: none;
     display: block;
     text-align: left;
-  }
-
+  } 
 }
