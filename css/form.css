@@ -2,8 +2,30 @@
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 5px; 
-    border: 1px solid black; /* dark cyan border */
+    padding: 5px;  
+    border: 1px solid black; /* black border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 2px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  /* Style inputs with type="email", select elements and textareas */
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 5px;  
+  border: 1px solid black; /* black border */
+  border-radius: 10px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  /* Style inputs with type="tel", select elements and textareas */
+  input[type=tel], select, textarea {
+    width: 100%; /* Full width */
+    padding: 5px;  
+    border: 1px solid black; /* black border */
     border-radius: 10px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 2px; /* Add a top margin */
@@ -15,7 +37,8 @@ input[type=text], select, textarea {
   input[type=submit] {
     background-color: black;
     color: white;
-    padding: 12px 20px;
+    /* padding: 12px 20px; */
+    padding: 6px 14px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -34,6 +57,7 @@ input[type=text], select, textarea {
     opacity: .95;
     padding: 10px;
     margin-left: 10px;
+    margin-bottom: 100px;
   }
 
 /* Header/logo Title */
@@ -44,23 +68,9 @@ input[type=text], select, textarea {
   padding: 60px;
   text-align: center;
   color: white;
-  min-width: 100vh;
   margin-bottom: 20px;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url(../media/images/LakeMIShore1.jpeg);
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 body {
   clear: both;
@@ -71,8 +81,7 @@ body {
    min-height: 100vh; 
    display: flex;
    flex-direction: column;
-  
- }
+   }
 .label{
   text-shadow: 1px 1px aliceblue;
 }
@@ -86,7 +95,32 @@ body {
     bottom: 0;
     padding-bottom: 5px;
     opacity: .9;
+    float: center;
   }
   .btn{
+    
     color: black;
   }
+  @media screen and (max-width: 700px) {
+  /* Header/logo Title */
+  .header {
+    background-color: rgb(27, 86, 138);
+    opacity: .8;
+    font-family: "Amatic SC", sans-serif;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    }
+    .container {
+      width: 90%;
+      border-radius: 5px;
+      background-color: rgba(201, 163, 67, 0.767);
+      opacity: .95;
+      padding: 10px;
+      margin-left: 10px;
+      margin-bottom: 100px;
+    }
+  
+  }
+  
