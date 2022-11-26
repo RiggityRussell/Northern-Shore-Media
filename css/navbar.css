@@ -44,7 +44,7 @@
 }
 
 .navbar a {
-  float: right;
+ float: right; 
   color: black;
   text-align: center;
   padding: 12px;
