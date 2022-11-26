@@ -15,7 +15,8 @@ p{
   background-color: aliceblue;
   opacity: .80;
   margin: auto;
-  width: 100%;
+  max-width: 20em;
+  min-width: 15em;
   text-align: center;
   border-radius: 10px;
 }
@@ -25,10 +26,12 @@ p{
   background-color: rgb(27, 86, 138);
   opacity: .8;
   font-family: "Amatic SC", sans-serif;
-  padding: 60px;
+  /* padding: 60px; */
   text-align: center;
   color: white;
   min-width: 100vh;
+  max-height: 1em;
+  
 }
 
 /* Column container */
