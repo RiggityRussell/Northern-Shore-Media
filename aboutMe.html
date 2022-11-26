@@ -4,24 +4,45 @@
 <title>Services</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/aboutMe.css">
+<link rel="stylesheet" href="./css/nsm.css">
 <link rel="stylesheet" href="./css/navbar.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic SC">
-<link rel="stylesheet" href="./js/navbar.js">
+
 <script src="https://kit.fontawesome.com/aaf38ab5f4.js" crossorigin="anonymous"></script>
 </head>
 <!-- Parallax creates background scrolling -->
 <body class="parallax">
     <!-- Navigation Bar -->
-    <div class="navbar">
-            <h3>Northern Shore Media</h3>
-            <a href="contact.html">Contact</a>
-            <a class="active" href="aboutMe.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="benefits.html">Benefits</a>
-            <a href="whatIs.html">What is SMM?</a>
-            <a href="NSM.html">Home</a>
+    
+    <div class="container-bar">
+      <div class="navbar">
+              <h3>Northern Shore Media</h3>
+              <a class="above"href="contact.html">Contact</a>
+              <a class="active" href="aboutMe.html">About</a>
+              <a href="services.html">Services</a>
+              <a href="benefits.html">Benefits</a>
+              <a href="whatIs.html">What is SMM?</a>
+              <a href="NSM.html">Home</a>
+      </div>
     </div>
+    <!-- Hidden Navigation -->
+    <div class="hidnav">
+      <a class="active"href="NSM.html">Northern Shore Media</a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="Links">
+        <a class="above"href="NSM.html">Home</a>
+        <a href="whatIs.html">What is SMM?</a>
+        <a href="benefits.html">Benefits</a>
+        <a href="services.html">Services</a>
+        <a class="current" href="aboutMe.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="openNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
     <!-- Header -->
     <div class="header">
       <h1>Northern Shore Media</h1>
@@ -63,6 +84,7 @@
           <i class="fa-brands fa-linkedin fa-2xl"></i>
       </a>
     </div>
+    <script src="./js/navbar.js"></script>
 </body>
 
 </html>

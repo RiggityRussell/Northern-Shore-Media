@@ -26,14 +26,21 @@
   z-index:1;
 }
 
-.navbar h3 {
-  position: relative;
+.container-bar{
+  width: 100%;
+  margin: 0%;
+}
+
+.container-bar h3 {
+  /* position: relative; */
   float: left;
   color: black;
   padding-left: 10px;
+  padding-top: 10px;
   font-family: "Amatic SC", sans-serif;
-  font-size: x-large;
-  
+  font-size: xx-large;
+  line-height: 25px;  
+  margin: 0%;
 }
 
 .navbar a {
@@ -43,6 +50,7 @@
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 25px;
   /* border-left: 1px solid #bbb;
   border-bottom: 1px solid #bbb; */
@@ -62,10 +70,74 @@ body{
   margin: 0;
 }
 
+.hidnav{
+  display: none;
+}
+
 @media screen and (max-width: 700px) {
-  .navbar a {
-    float: none;
+  .navbar{
+    display: none;
+  }   
+  
+  
+  /* Style of hidden nav */
+  .hidnav {
     display: block;
-    text-align: left;
-  } 
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .hidnav #Links {
+    display: none;
+    width: 100%;
+  }
+
+  .above{
+    margin-top: 49px;
+  }
+
+  /* Style navigation menu links */
+  .hidnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+
+  }
+
+  /* Style the hamburger menu */
+  .hidnav a.icon {
+    background: black;
+    color: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .hidnav #Links a:hover {
+    background-color: rgba(201, 163, 67, 0.767);
+    color: white;
+  }
+  .hidnav .active{
+    position: relative;
+    float: left;
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    font-family: "Amatic SC", sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 25px;  
+    margin: 0%;
+  }
+  .hidnav .current{
+    background-color: rgba(201, 163, 67, 0.767);
+    color: white;
+  }
 }

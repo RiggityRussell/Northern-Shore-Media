@@ -10,16 +10,34 @@
 <script src="https://kit.fontawesome.com/aaf38ab5f4.js" crossorigin="anonymous"></script>
 </head>
 <body class="parallax">
-
-    <div class="navbar">
-    <a href="contact.html">Contact</a>
-    <a href="aboutMe.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="benefits.html">Benefits</a>
-    <a class="active" href="whatIs.html">What is SMM?</a>
-    <a href="NSM.html">Home</a>
-    </div>            
-
+  <div class="container-bar">
+      <div class="navbar">
+          <h3>Northern Shore Media</h3>
+          <a href="contact.html">Contact</a>
+          <a href="aboutMe.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="benefits.html">Benefits</a>
+          <a class="active" href="whatIs.html">What is SMM?</a>
+          <a href="NSM.html">Home</a>
+      </div>            
+  </div>
+  <!-- Hidden Navigation -->
+  <div class="hidnav">
+    <a class="active"href="NSM.html">Northern Shore Media</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="Links">
+      <a class="above"href="NSM.html">Home</a>
+      <a class="current" href="whatIs.html">What is SMM?</a>
+      <a href="benefits.html">Benefits</a>
+      <a href="services.html">Services</a>
+      <a href="aboutMe.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
     <!-- Header -->
     <div class="header">
       <h1>Northern Shore Media</h1>
@@ -43,6 +61,7 @@
         </div>
       </div>
     </div>
+    <!-- Footer -->
     <div class="footer">
       <br>
       <a class="btn" href="#">
@@ -54,9 +73,7 @@
       <a class="btn" href="https://www.linkedin.com/in/anndion3852/">
           <i class="fa-brands fa-linkedin fa-2xl"></i>
       </a>
-
     </div>
+    <script src="./js/navbar.js"></script>
 </body>
-<!-- Footer -->
-
 </html>
