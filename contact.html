@@ -9,17 +9,34 @@
 </head>
 
 <body class="parallax">
-    <div class="navbar">
-
- 
-           <a href="NSM.html">Home</a>
-           <a href="whatIs.html">What is SMM?</a>
-           <a href="benefits.html">Benefits</a>
-           <a href="services.html">Services</a>
-           <a href="aboutMe.html">About</a>
-           <a class="active" href="contact.html">Contact</a>
+    <div class="container-bar">
+        <div class="navbar">
+            <h3>Northern Shore Media</h3>
+            <a class="active" href="contact.html">Contact</a>
+            <a href="aboutMe.html">About</a> 
+            <a href="services.html">Services</a>
+            <a href="benefits.html">Benefits</a>
+            <a href="whatIs.html">What is SMM?</a>
+            <a href="NSM.html">Home</a>
+        </div>
     </div>
-
+    <!-- Hidden Navigation -->
+    <div class="hidnav">
+        <a class="active"href="NSM.html">Northern Shore Media</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="Links">
+          <a class="above"href="NSM.html">Home</a>
+          <a href="whatIs.html">What is SMM?</a>
+          <a href="benefits.html">Benefits</a>
+          <a href="services.html">Services</a>
+          <a href="aboutMe.html">About</a>
+          <a class="current" href="contact.html">Contact</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
         <!-- Header -->
     <div class="header">
         <h1>We want to help grow your business!</h1>
@@ -55,23 +72,25 @@
             <p></p>
         </form>
       </div>
-      
+            <!-- Footer -->
+        <div class="footer">
+            <div>
+                <p >Call: 123-123-1234 Email: anndion@northernshoremedia </p>
+            </div>
+            <div>
+                <a class="btn" href="#">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                </a>
+                <a class="btn" href="#">
+                    <i class="fa-brands fa-square-instagram fa-2xl"></i>
+                </a>
+                <a class="btn" href="https://www.linkedin.com/in/anndion3852/">
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+            </div>
+        </div>
+
+      <script src="./js/navbar.js"></script>
 </body>
-<!-- Footer -->
-<div class="footer">
-    <div>
-        <p >Call: 123-123-1234 Email: anndion@northernshoremedia </p>
-    </div>
-    <div>
-        <a class="btn" href="#">
-            <i class="fa-brands fa-facebook fa-2xl"></i>
-        </a>
-        <a class="btn" href="#">
-            <i class="fa-brands fa-square-instagram fa-2xl"></i>
-        </a>
-        <a class="btn" href="https://www.linkedin.com/in/anndion3852/">
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
-        </a>
-    </div>
-</div>
+
 </html>

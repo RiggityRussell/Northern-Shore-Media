@@ -10,54 +10,75 @@
 <script src="https://kit.fontawesome.com/aaf38ab5f4.js" crossorigin="anonymous"></script>
 </head>
 <body class="parallax">
-
-    <div class="navbar">
-            <a href="NSM.html">Home</a>
-            <a class="active" href="whatIs.html">What is SMM?</a>
-            <a href="benefits.html">Benefits</a>
-            <a href="services.html">Services</a>
-            <a href="aboutMe.html">About</a>
-            <a href="contact.html">Contact</a>
-
+  <div class="container-bar">
+      <div class="navbar">
+          <h3>Northern Shore Media</h3>
+          <a href="contact.html">Contact</a>
+          <a href="aboutMe.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="benefits.html">Benefits</a>
+          <a class="active" href="whatIs.html">What is SMM?</a>
+          <a href="NSM.html">Home</a>
+      </div>            
+  </div>
+  <!-- Hidden Navigation -->
+  <div class="hidnav">
+    <a class="active"href="NSM.html">Northern Shore Media</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="Links">
+      <a class="above"href="NSM.html">Home</a>
+      <a class="current" href="whatIs.html">What is SMM?</a>
+      <a href="benefits.html">Benefits</a>
+      <a href="services.html">Services</a>
+      <a href="aboutMe.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
+    <!-- Header -->
+    <div class="header">
+      <h1>Northern Shore Media</h1>
+      <h3>Let us help you get social.</h3>
     </div>
 
-<!-- Header -->
-<div class="header">
-  <h1>Northern Shore Media</h1>
-  <h3>Let us help you get social.</h3>
-</div>
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <h2>What Is Social Media Management?</h2>
+        <p>SMM is one of the fastest-growing forms of communication and promotion.
+            It includes the use of social networking sites, such as: Facebook, Instagram, LinkedIn, etc. Networking sites that help us connect with family, friends, and brands like yours - where users share images, videos, opinions, reviews, and more.
+            By adding a social media profile to your marketing plan, you provide consumers with an opportunity to access your site, pages, and business.</p> 
+      </div>
 
-<!-- The flexible grid (content) -->
-<div class="row">
-  <div class="side">
-    <h2>What Is Social Media Management?</h2>
-    <p>SMM is one of the fastest-growing forms of communication and promotion.
-        It includes the use of social networking sites, such as: Facebook, Instagram, LinkedIn, etc. Networking sites that help us connect with family, friends, and brands like yours - where users share images, videos, opinions, reviews, and more.
-        By adding a social media profile to your marketing plan, you provide consumers with an opportunity to access your site, pages, and business.</p> 
-  </div>
+      <div class="main">
+        <div>
 
-  <div class="main">
-    <div>
+            <img style="border-radius: 10px; object-fit: cover;" src="./media/images/colab_pic.webp" alt="coffee shop">
+
+
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <br>
+      <a class="btn" href="#">
+          <i class="fa-brands fa-facebook fa-2xl"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fa-brands fa-square-instagram fa-2xl"></i>
+      </a>
+      <a class="btn" href="https://www.linkedin.com/in/anndion3852/">
+          <i class="fa-brands fa-linkedin fa-2xl"></i>
+      </a>
 
         <img style="border-radius: 10px; object-fit: cover;" src="./media/images/colab_pic.png" alt="coffee shop">
 
+
     </div>
-  </div>
-</div>
-<div class="footer">
-  <br>
-  <a class="btn" href="#">
-      <i class="fa-brands fa-facebook fa-2xl"></i>
-  </a>
-  <a class="btn" href="#">
-    <i class="fa-brands fa-square-instagram fa-2xl"></i>
-  </a>
-  <a class="btn" href="https://www.linkedin.com/in/anndion3852/">
-      <i class="fa-brands fa-linkedin fa-2xl"></i>
-  </a>
-
-</div>
+    <script src="./js/navbar.js"></script>
 </body>
-<!-- Footer -->
-
 </html>
