@@ -65,12 +65,22 @@ input[type=email], select, textarea {
   background-color: rgb(27, 86, 138);
   opacity: .8;
   font-family: "Amatic SC", sans-serif;
-  padding: 60px;
+  /* padding: 60px; */
   text-align: center;
   color: white;
-  margin-bottom: 20px;
+  min-width: 100vh;
+  max-height: 1em;
+  margin-bottom: 10px;
 }
-
+/* Main column */
+.main {
+  width: 45%;
+  flex: 30%;
+  margin-bottom: 100px;
+  /* padding: 5px; */
+  text-align: center;
+  margin-bottom: 5px;
+}
 
 body {
   clear: both;
