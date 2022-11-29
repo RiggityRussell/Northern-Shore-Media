@@ -119,6 +119,7 @@ body {
   text-align: left;
   display: inline-block;
   width: 20%;
+}
 
   @media screen and (max-width: 700px) {
  
@@ -203,5 +204,4 @@ body {
   opacity: .9;
   bottom: 0;
 }
-  }
-  
+}
