@@ -56,7 +56,7 @@ input[type=email], select, textarea {
     background-color: rgba(201, 163, 67, 0.768);
     opacity: 1;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 60px;
     margin-bottom: 100px;
   }
 
@@ -119,7 +119,6 @@ body {
   text-align: left;
   display: inline-block;
   width: 20%;
-}
 
   @media screen and (max-width: 700px) {
  
@@ -142,6 +141,7 @@ body {
       padding: 10px;
       margin-left: 10px;
       margin-bottom: 100px;
+     
     }
     /* Main column */
 .main {
